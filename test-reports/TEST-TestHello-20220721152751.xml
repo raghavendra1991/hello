@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<testsuite name="TestHello-20220721152751" tests="2" time="0.010" failures="0" errors="0">
+	<testcase classname="TestHello" name="test_hello" time="0.009"/>
+	<testcase classname="TestHello" name="test_name" time="0.001"/>
+	<system-out><![CDATA[]]></system-out>
+	<system-err><![CDATA[]]></system-err>
+</testsuite>
