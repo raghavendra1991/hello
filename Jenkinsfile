@@ -20,7 +20,7 @@ node {
 	        -D sonar.projectKey=python"
         }
     }
-    stage('Generate Test Reports') {
+    stage('Generate Test Report') {
 		/* Generate Text Report */
 		junit 'test-reports/*.xml'
 	}
