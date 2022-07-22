@@ -1,6 +1,6 @@
 node {
     stage('Git Checkout') {
-        git branch: 'main', credentialsId: 'GitHub', url: 'https://github.com/raghavendra1991/hello.git'
+        checkout scm
     }
 
 	stage ('clean') {
